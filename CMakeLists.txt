@@ -10,9 +10,10 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_service_files(FILES
 	Calibrate.srv
+	DetectCalibrationPattern.srv
+	DumpJson.srv
 	FinalizeCalibration.srv
 	GetCameraData.srv
-	DetectCalibrationPattern.srv
 	InitializeCalibration.srv
 )
 
