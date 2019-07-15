@@ -1,3 +1,4 @@
+bool store_calibration                 # Decide whether to store the computed calibration on the camera or not.
 ---
 geometry_msgs/PoseStamped camera_pose  # Pose of camera in frame given in dr_ensenso_msgs/InitializeCalibration.
 geometry_msgs/PoseStamped pattern_pose # Pose of pattern in frame given in dr_ensenso_msgs/InitializeCalibration.
