@@ -4,4 +4,6 @@ string fixed_frame               # The name of the fixed frame.
 geometry_msgs/Pose camera_guess  # Initial guess of the camera pose relative to the moving frame (camera in hand) or the fixed frame (camera fixed).
 geometry_msgs/Pose pattern_guess # Initial guess of the pattern pose relative to the moving frame (camera fixed) or the fixed frame (camera moveing).
 string dump_dir                  # Directory where calibration data will be dumped to (leave empty to disable).
+bool[] translation_fixed         # Vector of length 3 to indicate if the robot has a fixed translation.
+bool[] rotation_fixed            # Vector of length 3 to indicate if the robot has a fixed rotation.
 ---
