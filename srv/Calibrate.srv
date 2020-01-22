@@ -2,3 +2,4 @@ int32 samples                  # Number of samples to record for computing the c
 geometry_msgs/Pose pattern     # Pose of the pattern with respect to the calibration frame.
 string frame_id                # Name of the calibration frame to store on the camera.
 ---
+geometry_msgs/Pose camera_pose # Calibrated pose of the camera.
